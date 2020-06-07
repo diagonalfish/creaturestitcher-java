@@ -2,14 +2,14 @@
  * SpriteLoadException.java - Created Jul 26, 2008 11:05:25 PM
  * Creature Stitcher
  * http://cstitcher.ccdevnet.org
- * 
+ *
  * Copyright (C) 2008 Eric Goodwin
- * 
+ *
  * This program is free software; you can redistribute it
  * and/or modify it under the terms of the GNU General Public
  * License as published by the Free Software Foundation; either
  * version 2 of the License, or (at your option) any later version.
- * 
+ *
  * This program is distributed in the hope that it will be
  * useful, but WITHOUT ANY WARRANTY; without even the implied
  * warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
@@ -29,9 +29,8 @@ package org.ccdevnet.cstitcher.exceptions;
  */
 public class SpriteLoadException extends Exception {
 
-	public SpriteLoadException(String message)
-	{
-		super(message);
-	}
+    public SpriteLoadException(String message) {
+        super(message);
+    }
 
 }
