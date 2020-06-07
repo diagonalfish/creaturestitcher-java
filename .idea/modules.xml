@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/cstitcher.iml" filepath="$PROJECT_DIR$/cstitcher.iml" />
+      <module fileurl="file://$PROJECT_DIR$/creaturestitcher-java.iml" filepath="$PROJECT_DIR$/creaturestitcher-java.iml" />
     </modules>
   </component>
 </project>

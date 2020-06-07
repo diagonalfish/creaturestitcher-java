@@ -1,92 +1,118 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="467d4193-6a79-47a7-88a0-6164210f266c" name="Default Changelist" comment="" />
+    <list default="true" id="8099574c-d8d7-4896-87fd-11ba222efb6d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/creaturestitcher_java_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/creaturestitcher-java.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/ccdevnet/cstitcher/CreatureStitcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/ccdevnet/cstitcher/CreatureStitcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/ccdevnet/cstitcher/att/ATTData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/ccdevnet/cstitcher/att/ATTData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/ccdevnet/cstitcher/att/ATTFileReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/ccdevnet/cstitcher/att/ATTFileReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/ccdevnet/cstitcher/att/ATTFileWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/ccdevnet/cstitcher/att/ATTFileWriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/ccdevnet/cstitcher/exceptions/ATTFileReadException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/ccdevnet/cstitcher/exceptions/ATTFileReadException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/ccdevnet/cstitcher/exceptions/ATTFileWriteException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/ccdevnet/cstitcher/exceptions/ATTFileWriteException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/ccdevnet/cstitcher/exceptions/SpriteLoadException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/ccdevnet/cstitcher/exceptions/SpriteLoadException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/ccdevnet/cstitcher/iface/NudgeReceiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/ccdevnet/cstitcher/iface/NudgeReceiver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/ccdevnet/cstitcher/libraries/BodyDataLibrary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/ccdevnet/cstitcher/libraries/BodyDataLibrary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/ccdevnet/cstitcher/libraries/BodySpriteLibrary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/ccdevnet/cstitcher/libraries/BodySpriteLibrary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/ccdevnet/cstitcher/ui/CreatureStitcherPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/ccdevnet/cstitcher/ui/CreatureStitcherPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/ccdevnet/cstitcher/ui/CreatureViewPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/ccdevnet/cstitcher/ui/CreatureViewPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/ccdevnet/cstitcher/ui/NudgePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/ccdevnet/cstitcher/ui/NudgePanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/ccdevnet/cstitcher/ui/PartSelectionPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/ccdevnet/cstitcher/ui/PartSelectionPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/ccdevnet/cstitcher/ui/SinglePartViewPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/ccdevnet/cstitcher/ui/SinglePartViewPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/ccdevnet/cstitcher/ui/SinglePartZoomPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/ccdevnet/cstitcher/ui/SinglePartZoomPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/ccdevnet/cstitcher/util/NameSets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/ccdevnet/cstitcher/util/NameSets.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rebound/bits/Bytes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rebound/bits/Bytes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rebound/jagent/lib/Cursor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rebound/jagent/lib/Cursor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rebound/jagent/lib/FormatMismatchException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rebound/jagent/lib/FormatMismatchException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rebound/jagent/lib/c16/DataMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rebound/jagent/lib/c16/DataMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rebound/jagent/lib/c16/FromC16Converter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rebound/jagent/lib/c16/FromC16Converter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rebound/jagent/lib/c16/FromC16Notifee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rebound/jagent/lib/c16/FromC16Notifee.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectId" id="1cyYrWMde6JDdFV0rvwMekMyxrh" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1d0TCoCKI7DxZP8zfGQ6ZTr1ZZN" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager">
-    <configuration name="CreatureStitcher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.ccdevnet.cstitcher.CreatureStitcher" />
-      <module name="cstitcher" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.ccdevnet.cstitcher.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.CreatureStitcher" />
-      </list>
-    </recent_temporary>
-  </component>
-  <component name="SvnConfiguration" cleanupOnStartRun="true">
-    <configuration>C:\Users\Eric\AppData\Roaming\Subversion</configuration>
-    <supportedVersion>125</supportedVersion>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="467d4193-6a79-47a7-88a0-6164210f266c" name="Default Changelist" comment="" />
-      <created>1591502498468</created>
+      <changelist id="8099574c-d8d7-4896-87fd-11ba222efb6d" name="Default Changelist" comment="" />
+      <created>1591560885598</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1591502498468</updated>
+      <updated>1591560885598</updated>
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
-    <state x="440" y="94" key="#Project_Structure" timestamp="1591502636058">
+    <state x="711" y="381" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1591561120931">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="440" y="94" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1591502636058" />
-    <state x="718" y="390" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1591560625507">
+    <state x="711" y="381" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591561120931" />
+    <state x="461" y="165" key="SettingsEditor" timestamp="1591561219548">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="718" y="390" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1591560625507" />
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1591502610914">
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1591561219548" />
+    <state x="685" y="482" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1591561105147">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1591502610914" />
-    <state width="1921" height="328" key="GridCell.Tab.0.bottom" timestamp="1591504708712">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1921" height="328" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591504708712" />
-    <state width="1921" height="328" key="GridCell.Tab.0.center" timestamp="1591504708712">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1921" height="328" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591504708712" />
-    <state width="1921" height="328" key="GridCell.Tab.0.left" timestamp="1591504708712">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1921" height="328" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591504708712" />
-    <state width="1921" height="328" key="GridCell.Tab.0.right" timestamp="1591504708712">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1921" height="328" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591504708712" />
-    <state x="440" y="94" key="SettingsEditor" timestamp="1591560564724">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1591560564724" />
+    <state x="685" y="482" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1040@0.0.1920.1040" timestamp="1591561105147" />
   </component>
 </project>
