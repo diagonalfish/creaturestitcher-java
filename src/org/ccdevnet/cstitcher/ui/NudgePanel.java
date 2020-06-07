@@ -41,7 +41,7 @@ public class NudgePanel extends JPanel implements ActionListener {
 
     public NudgePanel() {
 
-        nrs = new ArrayList<NudgeReceiver>();
+        nrs = new ArrayList<>();
 
         setBorder(BorderFactory.createTitledBorder("Nudge"));
 

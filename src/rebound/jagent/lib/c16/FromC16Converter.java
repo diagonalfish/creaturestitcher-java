@@ -122,9 +122,8 @@ public class FromC16Converter {
             for (int i = 0; i < len; i++)
                 alphaMaps[index][y][x.iteratePos()] = true;
         else {
-            short data = 0;
             for (int relx = 0; relx < len; relx++) {
-                data = Bytes.getLittleShort(file);
+                short data = Bytes.getLittleShort(file);
                 setPixel(data, index, x.iteratePos(), y);
             }
         }
@@ -194,7 +193,7 @@ public class FromC16Converter {
 
         //Alphasetting
         if (dest.getColorModel().hasAlpha()) {
-            int x = 0, y = 0;
+            int x, y = 0;
             int[] sample = new int[4];
             WritableRaster raster = dest.getRaster();
             while (y < dest.getHeight()) {

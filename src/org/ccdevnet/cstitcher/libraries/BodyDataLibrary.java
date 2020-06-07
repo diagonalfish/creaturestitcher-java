@@ -75,7 +75,7 @@ public class BodyDataLibrary {
      * Creates a BodyDataLibrary with gender, lifestage and slot
      * initialized to zero.
      *
-     * @param spriteDir Directory where we will look for body data files (include trailing slash)
+     * @param attDir Directory where we will look for body data files (include trailing slash)
      */
     public BodyDataLibrary(String attDir) {
         gender = lstage = slot = 0;
@@ -88,7 +88,6 @@ public class BodyDataLibrary {
      * based on the current settings for gender, lifestage, and slot.
      *
      * @throws ATTFileReadException
-     * @throws ATTDataException
      * @throws FileNotFoundException
      */
     public void reloadBodyData(boolean createIfMissing) throws ATTFileReadException,
@@ -145,7 +144,6 @@ public class BodyDataLibrary {
      * @param pose
      * @param pointIndex
      * @return A Point containing an x and y coordinate
-     * @throws ATTDataException
      */
     public Point getPoint(int part, int pose, int pointIndex) {
         return atts[part].getPoint(pose, pointIndex);
@@ -158,11 +156,10 @@ public class BodyDataLibrary {
      * @param part
      * @param pose
      * @param pointIndex
-     * @param newpoint
-     * @throws ATTDataException
+     * @param newPoint
      */
-    public void setPoint(int part, int pose, int pointIndex, Point newpoint) {
-        atts[part].setPoint(pose, pointIndex, newpoint);
+    public void setPoint(int part, int pose, int pointIndex, Point newPoint) {
+        atts[part].setPoint(pose, pointIndex, newPoint);
     }
 
 

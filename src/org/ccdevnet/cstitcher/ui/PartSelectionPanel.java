@@ -156,7 +156,7 @@ public class PartSelectionPanel extends JPanel {
     }
 
 
-    private class AngleComboBox extends JComboBox {
+    private static class AngleComboBox extends JComboBox {
         public String[] ANGLES = {"Down", "Level", "Up", "Up More"};
 
         public AngleComboBox() {

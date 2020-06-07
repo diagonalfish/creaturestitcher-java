@@ -34,8 +34,8 @@ import java.io.*;
  */
 public class ATTFileReader {
 
-    private int rows;
-    private int pointsPerRow;
+    private final int rows;
+    private final int pointsPerRow;
 
     private String attFile;
 
@@ -81,11 +81,11 @@ public class ATTFileReader {
                 }
                 if (st.ttype == StreamTokenizer.TT_NUMBER) {
                     //System.out.println(st.nval);
-                    if (xy == true) {
-                        apoint.x = new Double(st.nval).intValue();
+                    if (xy) {
+                        apoint.x = (int)st.nval;
                         xy = false;
                     } else {
-                        apoint.y = new Double(st.nval).intValue();
+                        apoint.y = (int)st.nval;
                         //System.out.println("  Point " + pcoord + ": " + apoint.x + "," + apoint.y);
                         att.setPoint(i, pcoord, (Point) apoint.clone());
                         xy = true;

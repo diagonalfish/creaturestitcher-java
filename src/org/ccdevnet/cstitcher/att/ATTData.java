@@ -31,10 +31,10 @@ import java.awt.*;
  */
 public class ATTData {
 
-    private int rows;
-    private int pointsPerRow;
+    private final int rows;
+    private final int pointsPerRow;
 
-    private Point[][] data;
+    private final Point[][] data;
 
     private boolean modified;
 
@@ -66,11 +66,10 @@ public class ATTData {
      *
      * @param row      Row of the ATT data
      * @param point    Which point of the ATT data
-     * @param newpoint
-     * @throws ATTDataException
+     * @param newPoint
      */
-    public void setPoint(int row, int point, Point newpoint) {
-        data[row][point] = newpoint;
+    public void setPoint(int row, int point, Point newPoint) {
+        data[row][point] = newPoint;
         modified = true;
     }
 
@@ -80,7 +79,6 @@ public class ATTData {
      * @param row
      * @param point
      * @param newX
-     * @throws ATTDataException
      */
     public void setPointX(int row, int point, int newX) {
         data[row][point].x = newX;
@@ -93,7 +91,6 @@ public class ATTData {
      * @param row
      * @param point
      * @param newY
-     * @throws ATTDataException
      */
     public void setPointY(int row, int point, int newY) {
         data[row][point].y = newY;

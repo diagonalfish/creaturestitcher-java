@@ -5,11 +5,13 @@
 package rebound.bits;
 
 import java.io.*;
+import java.nio.charset.StandardCharsets;
 
 
 /**
  * Utility methods for packing/unpacking, getting/putting, reading/relaying primitive values in/out of byte arrays.
  */
+@SuppressWarnings({"PointlessBitwiseExpression", "PointlessArithmeticExpression"})
 public class Bytes {
     /*
      * Methods for unpacking primitive values from byte arrays starting at
@@ -816,16 +818,12 @@ public class Bytes {
 
 
     public static byte[] makeLPacket(String utf8) {
-        try {
-            return makeLPacket(utf8.getBytes("utf8"));
-        } catch (UnsupportedEncodingException exc) {
-            return new byte[4];
-        }
+        return makeLPacket(utf8.getBytes(StandardCharsets.UTF_8));
     }
 
     public static void relayLPacket(String utf8, OutputStream out) throws IOException {
         try {
-            relayLPacket(utf8.getBytes("utf8"), out);
+            relayLPacket(utf8.getBytes(StandardCharsets.UTF_8), out);
         } catch (UnsupportedEncodingException exc) {
             out.write(new byte[4]);
         }
